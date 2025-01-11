@@ -166,3 +166,28 @@ nav{
 .vision-btn:hover{
     background-color: rgb(0, 106, 80);
 }
+/* Quote Section */
+.quote{
+    margin: 27px 0;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 41px 20px;
+}
+.quote p>q{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 14px;
+    font-weight: 400;
+}
+.quote h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+.quote p{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 14px;
+    font-weight: 400;
+}
