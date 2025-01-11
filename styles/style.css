@@ -98,6 +98,7 @@ nav{
 .pillars-card{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     margin: 0;
 }
 .pillar{
@@ -126,6 +127,7 @@ nav{
     margin: 0;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 .vision-card{
     width: 450px;
@@ -301,6 +303,7 @@ nav{
 .donate-option{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 .donate-btn{
     width: 224px;
