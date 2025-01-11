@@ -23,6 +23,9 @@ body{
     font-weight: 400;
     padding-bottom: 27px;
 }
+.text-center{
+    text-align: center;
+}
 /* Navigation Bar */
 nav{
     padding-top: 26px;
@@ -271,4 +274,42 @@ nav{
     font-size: 14px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
+}
+/* Donate Today */
+.donate-section{
+    padding: 0px 74px;
+}
+.donate-container{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+}
+.donate-container input{
+    width: 877px;
+    height: 54px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.donate-container input::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.donate-option{
+    display: flex;
+    justify-content: space-between;
+}
+.donate-btn{
+    width: 224px;
+    height: 109px;
+    font-size: 34px;
+    font-weight: 700;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 14px;
+    background-color: rgb(255, 255, 255);
+}
+.donate-btn:hover{
+    background-color: rgb(198, 228, 214);
 }
