@@ -313,3 +313,38 @@ nav{
 .donate-btn:hover{
     background-color: rgb(198, 228, 214);
 }
+/* Subscribe Newsletter */
+.newsletter{
+    margin: 68px 0;
+    padding: 68px 85px;
+    border-radius: 20px;
+    background-color: rgb(198, 228, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.subs{
+    display: flex;
+}
+.subs input{
+    width: 510px;
+    height: 47px;
+    border-radius: 8px 0px 0px 8px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.subs button{
+    width: 127px;
+    height: 47px;
+    border-radius: 0px 8px 8px 0px;
+    margin: 0;
+    padding: 0;
+}
+.subs input::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 34px;
+}
