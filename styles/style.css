@@ -14,7 +14,7 @@ body{
 .titles{
     font-size: 34px;
     font-weight: 700;
-    padding-top: 68px;
+    padding-top: 65px;
     padding-bottom: 27px;
 }
 /* Navigation Bar */
@@ -168,7 +168,7 @@ nav{
 }
 /* Quote Section */
 .quote{
-    margin: 27px 0;
+    margin-top: 25px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
@@ -190,4 +190,35 @@ nav{
     color: rgba(14, 14, 14, 0.6);
     font-size: 14px;
     font-weight: 400;
+}
+/* Your Opinion Matters */
+.opinion-container{
+    margin: 0;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 41px 30px;
+}
+.opinion-container table, td, th{
+    text-align: left;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.opinion-container table th{
+    background-color: rgb(198, 228, 214);
+    border: none;
+}
+.opinion-btn{
+    width: 130px;
+    padding: 10px 14px;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+}
+.opinion-container table img{
+    width: 10px;
 }
