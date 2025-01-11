@@ -17,6 +17,12 @@ body{
     padding-top: 65px;
     padding-bottom: 27px;
 }
+.tittes-paragraph{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 27px;
+}
 /* Navigation Bar */
 nav{
     padding-top: 26px;
@@ -111,14 +117,9 @@ nav{
 .vision{
     margin: 0;
 }
-.vision p{
-    color: rgba(14, 14, 14, 0.7);
-    font-size: 14px;
-    font-weight: 400;
-}
+
 .vision-container{
     margin: 0;
-    padding-top: 27px;
     display: flex;
     justify-content: space-between;
 }
@@ -221,4 +222,53 @@ nav{
 }
 .opinion-container table img{
     width: 10px;
+}
+/* Recent News */
+.recent-news{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.news-container{
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    gap: 27px;
+    padding: 41px;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.news-container>img{
+    border-radius: 20px;
+    width: 347px;
+    height: 260px;
+}
+.news-container-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.news-container-element h2{
+    font-size: 27px;
+    font-weight: 700;
+}
+.news-container-element img{
+    width: 114px;
+    height: 34px;
+}
+.news-container-element p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+}
+.date-time{
+    display: flex;
+    margin: 0;
+    gap: 10px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
 }
